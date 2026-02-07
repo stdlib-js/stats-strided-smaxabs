@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import smaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smaxabs@esm/index.mjs';
+import smaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smaxabs@v0.1.1-esm/index.mjs';
 ```
 
 #### smaxabs( N, x, strideX )
@@ -151,7 +151,7 @@ var v = smaxabs.ndarray( 4, x, 2, 1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 
-import smaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smaxabs@esm/index.mjs';
+import smaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smaxabs@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
